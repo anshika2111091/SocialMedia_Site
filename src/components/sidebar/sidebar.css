@@ -2,6 +2,9 @@
     flex:3;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+ position: sticky;
+ top:50px;
+  
     
  
 }
@@ -48,16 +51,4 @@ list-style-type: none;
     margin:0;
     padding:0;
     
-}
-.sidebarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 14px;
-}
-.sidebarFriendImg{
-    width: 32px;
-    height: 32px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 15px;
 }
